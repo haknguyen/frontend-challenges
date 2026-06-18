@@ -1,0 +1,60 @@
+.challenge-page {
+	min-height: 100%;
+}
+
+.challenge-page__header {
+	padding: 1rem 1.5rem;
+	border-bottom: 1px solid #e5e7eb;
+	background: #f9fafb;
+}
+
+.challenge-page__back {
+	font-size: 0.875rem;
+	color: #4f46e5;
+	text-decoration: none;
+}
+
+.challenge-page__back:hover {
+	text-decoration: underline;
+}
+
+.challenge-page__title {
+	margin: 0.5rem 0 0.25rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #111827;
+}
+
+.challenge-page__badge {
+	display: inline-block;
+	padding: 0.125rem 0.5rem;
+	border-radius: 9999px;
+	font-size: 0.75rem;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.challenge-page__badge--tailwind {
+	background: #ecfdf5;
+	color: #047857;
+}
+
+.challenge-page__badge--styled-components {
+	background: #fdf2f8;
+	color: #be185d;
+}
+
+.challenge-page__badge--css-modules {
+	background: #eff6ff;
+	color: #1d4ed8;
+}
+
+.challenge-page__badge--css {
+	background: #f3f4f6;
+	color: #374151;
+}
+
+.challenge-page__loading {
+	padding: 2rem 1.5rem;
+	color: #6b7280;
+}

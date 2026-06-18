@@ -1,0 +1,89 @@
+.home {
+	max-width: 42rem;
+	margin: 0 auto;
+	padding: 2rem 1.5rem;
+}
+
+.home__title {
+	margin: 0 0 0.5rem;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #111827;
+}
+
+.home__subtitle {
+	margin: 0 0 2rem;
+	color: #6b7280;
+}
+
+.home__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.home__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 1rem 1.25rem;
+	border: 1px solid #e5e7eb;
+	border-radius: 0.5rem;
+	background: #fff;
+}
+
+.home__link {
+	flex: 1;
+	text-decoration: none;
+	color: inherit;
+}
+
+.home__link-title {
+	display: block;
+	font-weight: 600;
+	color: #111827;
+}
+
+.home__link-desc {
+	display: block;
+	margin-top: 0.25rem;
+	font-size: 0.875rem;
+	color: #6b7280;
+}
+
+.home__link:hover .home__link-title {
+	color: #4f46e5;
+}
+
+.home__badge {
+	flex-shrink: 0;
+	padding: 0.25rem 0.625rem;
+	border-radius: 9999px;
+	font-size: 0.75rem;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.home__badge--tailwind {
+	background: #ecfdf5;
+	color: #047857;
+}
+
+.home__badge--styled-components {
+	background: #fdf2f8;
+	color: #be185d;
+}
+
+.home__badge--css-modules {
+	background: #eff6ff;
+	color: #1d4ed8;
+}
+
+.home__badge--css {
+	background: #f3f4f6;
+	color: #374151;
+}
